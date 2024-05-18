@@ -1,4 +1,11 @@
-function laCajaDePandora(numero) {
+function rocio(){
+    const misDatos = {
+        nombre : "Rocio",
+        edad : 24,
+        nacionalidad : "Argentina",
+    }
+    return misDatos;
+=======
     
     if(numero % 2 === 0) {
 
@@ -21,5 +28,6 @@ const objeto = {
 const lautaro = () => {
 
     return objeto;
+
 
 };
