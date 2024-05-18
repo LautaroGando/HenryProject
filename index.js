@@ -6,3 +6,13 @@ function laCajaDePandora(numero) {
     }
 };
 
+function agustin() {
+    const data = {
+        name: 'Agustin',
+        age: 23,
+        nationality: 'Argentina'
+    };
+
+    return data;
+}
+
