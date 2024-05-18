@@ -1,23 +1,5 @@
-function agustin() {
-    const data = {
-        name: 'Agustin',
-        age: 23,
-        nationality: 'Argentina'
-    };
+function laCajaDePandora(numero) {
 
-    return data;
-}
-
-=======
-function rocio(){
-    const misDatos = {
-        nombre : "Rocio",
-        edad : 24,
-        nacionalidad : "Argentina",
-    }
-    return misDatos;
-=======
-    
     if(numero % 2 === 0) {
 
         return numero.toString(2);
@@ -30,6 +12,30 @@ function rocio(){
 
 };
 
+function agustin() {
+
+    const data = {
+        name: 'Agustin',
+        age: 23,
+        nationality: 'Argentina'
+    };
+
+    return data;
+
+};
+
+function rocio() {
+
+    const misDatos = {
+        nombre : "Rocio",
+        edad : 24,
+        nacionalidad : "Argentina",
+    }
+
+    return misDatos;
+
+};
+
 const objeto = {
     nombre: "Lautaro",
     edad: 22,
@@ -39,7 +45,5 @@ const objeto = {
 const lautaro = () => {
 
     return objeto;
-
-
+    
 };
-
