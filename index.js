@@ -5,3 +5,12 @@ function laCajaDePandora(numero) {
         return numero.toString(16);
     };
 };
+
+function rocio(){
+    const misDatos = {
+        nombre : "Rocio",
+        edad : 24,
+        nacionalidad : "Argentina",
+    }
+    return misDatos;
+};
