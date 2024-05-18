@@ -11,3 +11,15 @@ function laCajaDePandora(numero) {
     };
 
 };
+
+const objeto = {
+    nombre: "Lautaro",
+    edad: 22,
+    nacionalidad: "Argentino",
+};
+
+const lautaro = () => {
+
+    return objeto;
+
+};
